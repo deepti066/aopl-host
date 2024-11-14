@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
+
 const NavLinks = () => {
     return (
         <>
@@ -12,6 +13,9 @@ const NavLinks = () => {
             </HashLink>
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/">
                 Portfolio
+            </HashLink>
+            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/location#location">
+                Location
             </HashLink>
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/contact#contact">
                 Contact Us
