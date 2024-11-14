@@ -24,9 +24,9 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Web Development</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Networking & Security</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                    our goal is to provide secure and reliable networking solutions that help your business thrive. We focus on delivering fast, efficient connectivity while safeguarding your data with advanced security measures. By combining cutting-edge technology with proactive monitoring, we ensure your systems are protected, so you can focus on growing your business with confidence.
                                     </p>
                                 </div>
                             </div>
