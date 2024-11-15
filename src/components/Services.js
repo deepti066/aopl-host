@@ -6,6 +6,11 @@ import img4 from '../images/consultation.svg';
 
 const Services = () => {
 
+        // Define your inline style object
+    //     const servicesStyle = {
+    //      scrollMarginTop: '90px',  
+    //    };
+
     return (
         <div id="services" className="bg-gray-100 py-12" >
             <section data-aos="zoom-in-down">
