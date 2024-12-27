@@ -16,8 +16,8 @@ const Footer = () => {
                         <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                             <h3 className="font-bold text-4xl mb-4">Aryahi Optinet</h3>
                             <div className='text-md font-medium text-gray-600'>
-                                <h5>Guwahati</h5>
-                                <h5>Assam</h5>
+                                <h5>4th Floor, Madhab Tower, G.S Road, Rukminigaon, Khanapara, Kamrup, Assam, India, 781022</h5>
+                                
                             </div>
                         </div>
                     </div>

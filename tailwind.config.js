@@ -1,3 +1,4 @@
+
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}', 
@@ -6,7 +7,8 @@ module.exports = {
     extend: {
       darkBackground: '#1A2231',
         darkText: '#4D9BFF',
-    },
+       
   },
+},
   plugins: [],
 };

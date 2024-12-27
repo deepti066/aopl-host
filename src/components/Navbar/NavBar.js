@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NavLinks from '../Navbar/NavLinks';
 import { HashLink } from 'react-router-hash-link';
+// import aopl from '../images/aopl-logo.svg';
 
 
 const NavBar = () => {
