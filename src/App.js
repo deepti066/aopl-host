@@ -16,6 +16,7 @@ import DemoProduct from './pages/DemoProduct';
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
 import Services from './components/Services';
+import About from './components/About';
 
 function App() {
  // For dark mode
@@ -71,9 +72,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="/location" element={<Location />} />
             <Route path="/get-demo" element={<DemoProduct />} />
-            <Route path="/services" element={<Services />} /> 
+            {/* <Route path="/services" element={<Services />} />  */}
           </Routes>
           <button
             className="fixed bottom-5 right-5 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700"

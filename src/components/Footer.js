@@ -27,7 +27,7 @@ const Footer = () => {
                         <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
                         <ul className="text-md">
                         <li className="mb-2">
-                            <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About</HashLink>
+                            <HashLink to="/about" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">About</HashLink>
                         </li>
                         <li className="mb-2">
                             <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Services</HashLink>
