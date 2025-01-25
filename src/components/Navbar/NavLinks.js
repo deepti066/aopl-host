@@ -3,6 +3,9 @@ import { HashLink } from 'react-router-hash-link';
 
 
 const NavLinks = () => {
+    // const handleReload = () => {
+    //     window.location.reload();
+    // };
     return (
         <>
             <div className="font-roboto text-lg space-x-10">
@@ -15,7 +18,7 @@ const NavLinks = () => {
             {/* <HashLink className="px-4 gap-4 text-white hover:text-black" to="/services">
                 Services
             </HashLink> */}
-            <HashLink className="px-4 text-white hover:text-black no-underline" to="/">
+            <HashLink className="px-4 text-white hover:text-black no-underline" to="/hosting">
                 Hosting
             </HashLink>
             <HashLink className="px-4 text-white hover:text-black no-underline" to="/contact">

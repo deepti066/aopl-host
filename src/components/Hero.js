@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
 import Img1 from '../images/cloud-2.png';
-import Img2 from '../images/hosting.svg'
+// import Img2 from '../images/hosting.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Hero = () => {

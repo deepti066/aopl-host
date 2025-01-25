@@ -80,7 +80,7 @@ const Contact = () => {
             <div>
                 <NavBar />
             </div>
-            <div id='contact' className="flex justify-center items-center mt-8 w-full bg-gradient-to-br from-gray-800 via-blue-900 to-black py-12 lg:py-24 ">
+            <div id='contact' className="flex justify-center items-center w-full bg-gradient-to-br from-gray-800 via-blue-900 to-black py-12 lg:py-24 ">
                 <div className="container mx-auto my-8 px-4 lg:px-20" data-aos="zoom-in">
 
                 <form onSubmit={sendEmail}>

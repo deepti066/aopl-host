@@ -1,11 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from './Navbar/NavBar';
 import cloudImage from '../images/cloud-2.png'; // Example image for the about section
 
 const About = () => {
   return (
     
     <div className="bg-gradient-to-br from-gray-800 via-blue-900 to-black text-white py-20">
+      <div>
+          <NavBar />
+        </div>
       <div className="max-w-7xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
