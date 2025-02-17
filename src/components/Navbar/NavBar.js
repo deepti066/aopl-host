@@ -23,8 +23,8 @@ const NavBar = () => {
         <nav className={`fixed top-0 h-16 w-full z-30 flex transition duration-500 ease-in-out mb-16 ${!top && 'bg-gradient-to-br from-gray-800 via-blue-900 to-black shadow-lg'}`}>
             <div className="flex justify-between items-center w-full px-6 py-2">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                    <HashLink smooth to="/#hero">
-                        <h1 className="font-extrabold text-2xl md:text-4xl text-white">AT Cloud</h1>
+                    <HashLink smooth to="/">
+                        <h1 className="font-extrabold text-2xl md:text-4xl text-white">Ice Connect</h1>
                     </HashLink>
                 </div>
                 <div className="group flex flex-col items-center">

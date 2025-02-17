@@ -12,12 +12,15 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Location from './pages/Location';
 import DemoProduct from './pages/DemoProduct';
+import HostingPage from './pages/Hosting';
+
 
 import {useDocTitle} from './components/CustomHook';
 import ScrollToTop from './components/ScrollToTop';
-import Services from './components/Services';
+// import Services from './components/Services';
 import About from './components/About';
-import HostingPage from './components/Hosting';
+import CloudHosting from './components/CloudHosting';
+import VPSHosting from './components/VPSHosting';
 
 function App() {
  // For dark mode
@@ -78,6 +81,9 @@ function App() {
             <Route path="/get-demo" element={<DemoProduct />} />
             {/* <Route path="/services" element={<Services />} />  */}
             <Route path="/hosting" element={<HostingPage />} />
+            <Route path="/cloud-hosting" element={<CloudHosting />} />
+            <Route path="/vps-hosting" element={<VPSHosting />} />
+
           </Routes>
           <button
             className="fixed bottom-5 right-5 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg hover:bg-gray-700"
