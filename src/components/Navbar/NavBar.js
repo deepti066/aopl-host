@@ -24,7 +24,7 @@ const NavBar = () => {
             <div className="flex justify-between items-center w-full px-6 py-2">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
                     <HashLink smooth to="/">
-                        <h1 className="font-extrabold text-2xl md:text-4xl text-white">Ice Connect</h1>
+                        <h1 className="font-extrabold text-2xl md:text-4xl text-white">AT Host</h1>
                     </HashLink>
                 </div>
                 <div className="group flex flex-col items-center">
@@ -45,7 +45,7 @@ const NavBar = () => {
                     </div>
                     <div
                         role="menu"
-                        className={`fixed transition-transform duration-300 ease-in-out transform flex justify-center left-0 w-full h-auto rounded-md p-6 bg-white lg:hidden shadow-xl top-14 ${isOpen ? "scale-100 opacity-100" : "scale-0 opacity-0"}`}>
+                        className={`fixed transition-transform duration-300 ease-in-out transform flex justify-center left-0 w-full h-auto rounded-md p-6 bg-blue lg:hidden shadow-xl top-14 ${isOpen ? "scale-100 opacity-100" : "scale-0 opacity-0"}`}>
                         <div className="flex flex-col space-y-6">
                             <NavLinks />
                         </div>
